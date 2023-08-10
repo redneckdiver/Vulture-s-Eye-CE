@@ -517,7 +517,7 @@ int vulture_monster_to_tile(int mon_id, int x, int y)
 	/* we have different tiles for priests depending on their alignment */
 	if (mon_id == PM_ALIGNED_PRIEST) {
 		struct monst *mtmp = m_at(x, y);
-		if(EPRI(mtmp) {
+		if(EPRI(mtmp)) {
 			switch (EPRI(mtmp)->shralign) {
 				case A_LAWFUL: return V_MISC_LAWFUL_PRIEST;
 				case A_CHAOTIC: return V_MISC_CHAOTIC_PRIEST;

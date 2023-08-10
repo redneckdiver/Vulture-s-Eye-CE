@@ -6,7 +6,7 @@ This release updates the old Vulture's 3.6.6 with Nethack 3.6.7 and also fixes a
 It currently successfully compiles and runs on Ubuntu Lunar (23.04).
 
 Next goals:
-Proved a Linux distro independent binary release.
+Provide a Linux distro independent binary release.
 Successfully compile and run in Windows 11.
 Create a Windows binary release.
 Create a 3.7.0 branch.

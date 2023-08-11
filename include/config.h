@@ -273,8 +273,8 @@
 
 #if defined(UNIX) && !defined(ZLIB_COMP) && !defined(COMPRESS)
 /* path and file name extension for compression program */
-#define COMPRESS "/usr/bin/compress" /* Lempel-Ziv compression */
-#define COMPRESS_EXTENSION ".Z"      /* compress's extension */
+/* #define COMPRESS "/usr/bin/compress"*/ /* Lempel-Ziv compression */
+/* #define COMPRESS_EXTENSION ".Z"*/      /* compress's extension */
 /* An example of one alternative you might want to use: */
 /* #define COMPRESS "/usr/local/bin/gzip" */ /* FSF gzip compression */
 /* #define COMPRESS_EXTENSION ".gz" */       /* normal gzip extension */
@@ -321,7 +321,7 @@
  *      a tar-like file, thus making a neater installation.  See *conf.h
  *      for detailed configuration.
  */
-/* #define DLB */ /* not supported on all platforms */
+#define DLB /* not supported on all platforms */
 
 /*
  *      Defining REPRODUCIBLE_BUILD causes 'util/makedefs -v' to construct
@@ -362,7 +362,7 @@
  * otherwise it will be the current directory.
  */
 #ifndef HACKDIR
-#define HACKDIR "/usr/games/lib/nethackdir"
+#define HACKDIR "./"
 #endif
 
 /*

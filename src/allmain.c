@@ -773,7 +773,7 @@ static struct early_opt earlyopts[] = {
 #endif
 };
 
-#ifdef WIN32
+#ifdef XXX_IGNORE_WIN32
 extern int FDECL(windows_early_options, (const char *));
 #endif
 
@@ -849,7 +849,7 @@ enum earlyarg e_arg;
         case ARG_SHOWPATHS: {
             return 2;
         }
-#ifdef WIN32
+#ifdef XXX_IGNORE_WIN32
         case ARG_WINDOWS: {
             if (extended_opt) {
                 extended_opt++;

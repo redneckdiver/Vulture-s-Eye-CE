@@ -132,6 +132,6 @@ PANICTRACE_LIBC=2
 # default values.  Unlike the SYSCF values above, individual users can
 # still choose their own option settings via NETHACKOPTIONS in their
 # environment or via ~/.nethackrc run-time configuration file.
-#OPTIONS=!autopickup,fruit:tomato,symset:DECgraphics
+OPTIONS=!autopickup,autoquiver,autodig,number_pad:1
 
 #eof

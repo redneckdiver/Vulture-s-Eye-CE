@@ -411,7 +411,7 @@ VA_DECL(const char *, fmt)
         gr_finish();
 #endif
     Vprintf(fmt, VA_ARGS);
-    flushout();
+//    flushout();
     VA_END();
     return;
 }

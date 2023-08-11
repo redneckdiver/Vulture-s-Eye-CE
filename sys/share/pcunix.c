@@ -9,7 +9,7 @@
 #include "wintty.h"
 
 #include <sys/stat.h>
-#if defined(MSDOS)
+#if defined(MSDOS) || defined(WIN32)
 #include <errno.h>
 #endif
 

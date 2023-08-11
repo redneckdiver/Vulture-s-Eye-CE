@@ -195,7 +195,7 @@ STATIC_DCL void FDECL(toggle_menu_attr, (BOOLEAN_P, int, int));
 STATIC_DCL void FDECL(process_menu_window, (winid, struct WinDesc *));
 STATIC_DCL void FDECL(process_text_window, (winid, struct WinDesc *));
 STATIC_DCL tty_menu_item *FDECL(reverse, (tty_menu_item *));
-STATIC_DCL const char *FDECL(compress_str, (const char *));
+char *FDECL(compress_str, (const char *));
 STATIC_DCL void FDECL(tty_putsym, (winid, int, int, CHAR_P));
 STATIC_DCL void FDECL(setup_rolemenu, (winid, BOOLEAN_P, int, int, int));
 STATIC_DCL void FDECL(setup_racemenu, (winid, BOOLEAN_P, int, int, int));
@@ -2583,7 +2583,7 @@ char ch;
     }
 }
 
-STATIC_OVL const char *
+const char *
 compress_str(str)
 const char *str;
 {

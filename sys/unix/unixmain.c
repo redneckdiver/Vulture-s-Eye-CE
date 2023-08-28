@@ -619,7 +619,6 @@ boolean
 authorize_wizard_mode()
 {
     struct passwd *pw = get_unix_pw();
-
     if (pw && sysopt.wizards && sysopt.wizards[0]) {
         if (check_user_string(sysopt.wizards))
             return TRUE;

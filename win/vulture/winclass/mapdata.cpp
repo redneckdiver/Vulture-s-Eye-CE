@@ -107,6 +107,7 @@ mapdata::mapdata()
 	vulture_tilemap_misc[S_sink] = V_MISC_SINK;
 	vulture_tilemap_misc[S_bear_trap] = V_MISC_TRAP_BEAR;
 	vulture_tilemap_misc[S_rust_trap] = V_MISC_TRAP_WATER;
+        vulture_tilemap_misc[S_vibrating_square] = V_MISC_VIBRATING_SQUARE;
 	vulture_tilemap_misc[S_pit] = V_MISC_TRAP_PIT;
 	vulture_tilemap_misc[S_hole] = V_MISC_TRAP_PIT;
 	vulture_tilemap_misc[S_trap_door] = V_MISC_TRAP_DOOR;
